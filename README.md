@@ -1,3 +1,12 @@
+# scrape
+
+[![Build Status](https://travis-ci.org/jakewarren/scrape.svg?branch=master)](https://travis-ci.org/jakewarren/scrape/)
+[![GitHub release](http://img.shields.io/github/release/jakewarren/scrape.svg?style=flat-square)](https://github.com/jakewarren/scrape/releases])
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/jakewarren/scrape/blob/master/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/jakewarren/scrape)](https://goreportcard.com/report/github.com/jakewarren/scrape)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields)](http://makeapullrequest.com)
+
+
 A command line scraping utility inspired by [scrape]( https://github.com/jeroenjanssens/data-science-at-the-command-line/blob/master/tools/scrape).
 
 ## Features
@@ -5,6 +14,18 @@ A command line scraping utility inspired by [scrape]( https://github.com/jeroenj
 * Scrape using XPath or CSS selectors
 * Process HTML from a URL, STDIN, or a local file
 * Extract a particular attribute
+
+## Install
+### Option 1: Binary
+
+Download the latest release from [https://github.com/jakewarren/scrape/releases/latest](https://github.com/jakewarren/scrape/releases/latest)
+
+### Option 2: From source
+
+```
+go get github.com/jakewarren/scrape
+```
+
 
 ## Usage
 
@@ -43,3 +64,5 @@ Usage of scrape:
 <a href="/test-sites/e-commerce/allinone/product/280" class="title" title="Lenovo V510 Black">Lenovo V510 Blac...</a>
 <a href="/test-sites/e-commerce/allinone/product/278" class="title" title="Lenovo V510 Black">Lenovo V510 Blac...</a>
 ```
+
+

@@ -29,7 +29,9 @@ deploy:
   provider: releases
   api_key:
     secure: PTfTN7QQetUTevFvAENrvR7ewF4fAwDMs5dXHGXPkQ/xhl5dXpVGWcjX+viad+xAPogpMzAgVgUNAYSPefQAGEj18E7LZqNU41mLo7WTVFm45DrkdzFqnG8nZt0zC4jOpgtrn68MJG7d14dP9El5c737KcgzixZOGKJkxVN0Ve54oh3Xx5oHLfFqUbi89XL0DaJWrAOapLFQgPWq/sAx1XXaOJuktmzVoV0hvTIsegh8z4Qa0Fdcv2ikTgdX+nNqxt/P3DiDXm7Jx57F2JewvVBwt6BgdobJCCSXULVlK6vzLX/HCt0kLkfU9oT+5QbfK2dFinPocHBJruSQC6xVNuAXr6M/RHKmDVC/Zne52brU1KKXxus2DgukTAbDu8ZBs4H+hMpW6/1oiEHG6wFbELW/CUlUcWbMRupyKA9WdYv5gL15DF+uNuxe//7PUCbiz1hz5qF3I0nddtwD/doiOI9/XKqpb+7dxlWDnJ7ouv00k9H7LRmOMTxqmgzBmx7Xt65GwXnCIJ5HyaxuTEcPkJ4ndtPAu/hmILc97EOo/AoCfHPyp7wT3UzJpBL7ViRQSngsx4Qqfktf5BD9EEppwu3fWtfg2G1kXwOGBOh7PRgBYb94vJWAZPIB+hfat8pPiB2U0x4DB+qVoP9nxprppQVgdonOudYoj2BT2ccCqm8=
+  file_glob: true
   file: 'bin/*'
+  skip_cleanup: true
   on:
     repo: jakewarren/scrape
     tags: true

@@ -21,7 +21,7 @@ func scrapeCSS() error {
 
 		switch conf.attr {
 		case "html":
-			html, htmlErr := s.Parent().Html()
+			html, htmlErr := goquery.OuterHtml(s)
 			if htmlErr == nil {
 				fmt.Println(html)
 			}

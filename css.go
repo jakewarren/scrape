@@ -26,7 +26,7 @@ func scrapeCSS() error {
 				fmt.Println(html)
 			}
 		case "text":
-			fmt.Println(s.Parent().Text())
+			fmt.Println(s.Text())
 		default:
 			attr, exists := s.Attr(conf.attr)
 			if exists {

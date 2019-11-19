@@ -115,7 +115,7 @@ func validURL(url string) bool {
 // getURL takes in a URL and returns an io.Reader
 func getURL(url string) (io.Reader, error) {
 	tr := &http.Transport{
-		TLSClientConfig: &tls.Config{InsecureSkipVerify: conf.insecure},
+		TLSClientConfig: &tls.Config{InsecureSkipVerify: conf.insecure}, // nolint:gosec
 	}
 
 	client := http.Client{
@@ -130,7 +130,7 @@ func getURL(url string) (io.Reader, error) {
 
 	req.Header.Set("User-Agent", conf.userAgent)
 
-	resp, err := client.Do(req)
+	resp, err := client.Do(req) // nolint:bodyclose
 
 	if err != nil {
 		return nil, err

@@ -1,7 +1,7 @@
 module github.com/jakewarren/scrape
 
 require (
-	github.com/PuerkitoBio/goquery v1.4.1
+	github.com/PuerkitoBio/goquery v1.5.0
 	github.com/andybalholm/cascadia v1.0.0 // indirect
 	github.com/antchfx/htmlquery v0.0.0-20180925020018-98389addba3d
 	github.com/antchfx/xpath v0.0.0-20180922041825-3de91f3991a1 // indirect

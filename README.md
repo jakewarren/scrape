@@ -1,6 +1,6 @@
 # scrape
 
-[![CircleCI](https://circleci.com/gh/jakewarren/scrape.svg?style=shield)](https://circleci.com/gh/jakewarren/scrape)
+[![Build Status](https://github.com/jakewarren/scrape/workflows/lint/badge.svg)](https://github.com/jakewarren/scrape/actions)
 [![GitHub release](http://img.shields.io/github/release/jakewarren/scrape.svg?style=flat-square)](https://github.com/jakewarren/scrape/releases])
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/jakewarren/scrape/blob/master/LICENSE)
 [![Go Report Card](https://goreportcard.com/badge/github.com/jakewarren/scrape)](https://goreportcard.com/report/github.com/jakewarren/scrape)
